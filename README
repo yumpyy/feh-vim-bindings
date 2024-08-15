@@ -1,0 +1,11 @@
+feh-vim-bindings
+================
+
+vim-like keybindings patch for feh
+
+install
+-------
+
+  wget https://raw.githubusercontent.com/yumpyy/feh-vim-bindings/master/vim-like-binds.patch
+  patch -p0 vim-like-binds.patch
+  make && sudo make install app=1
