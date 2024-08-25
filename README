@@ -6,6 +6,8 @@ vim-like keybindings patch for feh
 install
 -------
 
+  git clone https://github.com/derf/feh
+  cd feh
   wget https://raw.githubusercontent.com/yumpyy/feh-vim-bindings/master/vim-like-binds.patch
   patch -p0 vim-like-binds.patch
   make && sudo make install app=1
@@ -13,7 +15,7 @@ install
 keybindings
 -----------
 
-modified keybinds
+modified keybind list
 
 function              keybind
 -----------------------------
