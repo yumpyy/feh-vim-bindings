@@ -9,3 +9,28 @@ install
   wget https://raw.githubusercontent.com/yumpyy/feh-vim-bindings/master/vim-like-binds.patch
   patch -p0 vim-like-binds.patch
   make && sudo make install app=1
+
+keybindings
+-----------
+
+modified keybinds
+
+function              keybind
+-----------------------------
+previous img          h
+next img              l
+
+zoom in               k
+zoom out              j
+zoom default          =
+
+scroll left           H
+scroll right          L
+scroll down           J
+scroll up             K
+
+remove image          d
+delete image          D
+
+jump to first img     I
+jump to last img      A
